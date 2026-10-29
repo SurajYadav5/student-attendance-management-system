@@ -13,6 +13,6 @@ echo.
 echo Starting Cloudflare Live Public HTTPS Tunnel...
 echo Evaluators can open the HTTPS link from any mobile or laptop!
 echo.
-npx -y cloudflared tunnel --url http://localhost:5000
+call npx -y cloudflared tunnel --url http://localhost:5000
 pause
 
