@@ -1,0 +1,4427 @@
+{
+  "2026-10-01": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Late",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1011": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1012": {
+      "status": "Late",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Late",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1020": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Late",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-01T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-02": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1012": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-02T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-03": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Late",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Late",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1012": {
+      "status": "Absent",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1013": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Absent",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Absent",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Absent",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-03T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-05": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Late",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Absent",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1013": {
+      "status": "Late",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Absent",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Absent",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Late",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Absent",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Late",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-05T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-06": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Late",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Late",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Late",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-06T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-07": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-07T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-08": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-08T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-09": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Late",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Late",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Late",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Late",
+      "markedAt": "2026-10-09T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    }
+  },
+  "2026-10-10": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Absent",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Late",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Late",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Late",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Late",
+      "markedAt": "2026-10-10T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    }
+  },
+  "2026-10-12": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Late",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-12T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-13": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-13T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-14": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1007": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-14T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-15": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Late",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1007": {
+      "status": "Late",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Late",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1034": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-15T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-16": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Late",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Late",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Late",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1024": {
+      "status": "Late",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Late",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1034": {
+      "status": "Late",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-16T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-17": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Late",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Late",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Late",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1024": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Late",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1034": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-17T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-19": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1016": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-19T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-20": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1016": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1017": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-20T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-21": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1015": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1016": {
+      "status": "Late",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1017": {
+      "status": "Late",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Late",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Absent",
+      "markedAt": "2026-10-21T08:15:00Z",
+      "remarks": "Uninformed"
+    }
+  },
+  "2026-10-22": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Late",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Late",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1015": {
+      "status": "Absent",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1016": {
+      "status": "Absent",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1017": {
+      "status": "Absent",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Late",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Absent",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Late",
+      "markedAt": "2026-10-22T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    }
+  },
+  "2026-10-23": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Absent",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1016": {
+      "status": "Absent",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1017": {
+      "status": "Absent",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Absent",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Half-Day",
+      "markedAt": "2026-10-23T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-24": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Absent",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1016": {
+      "status": "Absent",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1017": {
+      "status": "Absent",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Absent",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-24T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-26": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Late",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Late",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1016": {
+      "status": "Absent",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1017": {
+      "status": "Absent",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Absent",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1028": {
+      "status": "Late",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-26T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-27": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Absent",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Late",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Absent",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1017": {
+      "status": "Absent",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Absent",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1027": {
+      "status": "Absent",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1028": {
+      "status": "Late",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-27T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-28": {
+    "STU1001": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1002": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1003": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1004": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1005": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1006": {
+      "status": "Late",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1008": {
+      "status": "Absent",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1009": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1010": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1011": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1012": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1013": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1014": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1015": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1016": {
+      "status": "Absent",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1017": {
+      "status": "Absent",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1018": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1019": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1020": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Late",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Late by 15 mins"
+    },
+    "STU1027": {
+      "status": "Absent",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1028": {
+      "status": "Absent",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-28T08:15:00Z",
+      "remarks": ""
+    }
+  },
+  "2026-10-29": {
+    "STU1001": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1002": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1003": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1004": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1005": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1006": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1007": {
+      "status": "Absent",
+      "remarks": "Uninformed",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1008": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1009": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1010": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1011": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1012": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1013": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1014": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1015": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1016": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1017": {
+      "status": "Late",
+      "remarks": "Late by 15 mins",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1018": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1019": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1020": {
+      "status": "Present",
+      "remarks": "",
+      "markedAt": "2026-10-29T13:10:10.618Z"
+    },
+    "STU1021": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1022": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1023": {
+      "status": "Absent",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": "Uninformed"
+    },
+    "STU1024": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1025": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1026": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1027": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1028": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1029": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1030": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1031": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1032": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1033": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1034": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    },
+    "STU1035": {
+      "status": "Present",
+      "markedAt": "2026-10-29T08:15:00Z",
+      "remarks": ""
+    }
+  }
+}

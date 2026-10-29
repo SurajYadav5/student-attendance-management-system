@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduTrack — Student Attendance Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h2>EduTrack <span>Pro</span></h2>
+          <p>Class 10 IT Project</p>
+        </div>
+      </div>
+
+      <div class="session-badge">
+        <span class="live-dot"></span>
+        <span id="session-term">Academic Session 2026-27</span>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="dashboard">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+          <span>Dashboard</span>
+        </button>
+        <button class="nav-item" data-tab="attendance">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          <span>Attendance Register</span>
+          <span class="nav-badge pulse" id="unmarked-pill">Live</span>
+        </button>
+        <button class="nav-item" data-tab="defaulters">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          <span>Defaulter Radar (&lt;75%)</span>
+          <span class="nav-badge danger" id="defaulter-badge">3</span>
+        </button>
+        <button class="nav-item" data-tab="students">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          <span>Student Directory</span>
+        </button>
+        <button class="nav-item" data-tab="reports">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>Spreadsheet & Reports</span>
+        </button>
+        <button class="nav-item" data-tab="syllabus">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <span>Class 10 IT File Guide</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-profile">
+          <div class="avatar">RY</div>
+          <div class="user-meta">
+            <h4>Rahul Yadav</h4>
+            <p>Class 10 Roll #15 • IT</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-viewport">
+      <!-- Top Navigation Bar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <h1 id="page-title">Dashboard & Analytics</h1>
+          <p id="page-subtitle">Real-time attendance intelligence and daily class summaries</p>
+        </div>
+        <div class="topbar-right">
+          <div class="datetime-pill">
+            <span class="icon">📅</span>
+            <span id="current-datetime">Loading...</span>
+          </div>
+          <button class="btn btn-primary" id="btn-quick-register" onclick="openAddStudentModal()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>+ Add Student</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- View Containers -->
+      <div class="content-scroll">
+
+        <!-- TAB 1: DASHBOARD -->
+        <section id="tab-dashboard" class="tab-pane active">
+          <!-- KPI Metrics Row -->
+          <div class="kpi-grid">
+            <div class="kpi-card glass-panel">
+              <div class="kpi-header">
+                <span class="kpi-label">Total Enrolled</span>
+                <div class="kpi-icon indigo">👥</div>
+              </div>
+              <div class="kpi-value" id="kpi-total-students">--</div>
+              <div class="kpi-footer">Across Classes 10-A, 10-B, 9-A</div>
+            </div>
+
+            <div class="kpi-card glass-panel">
+              <div class="kpi-header">
+                <span class="kpi-label">Today's Attendance Rate</span>
+                <div class="kpi-icon emerald">📈</div>
+              </div>
+              <div class="kpi-value" id="kpi-rate">--%</div>
+              <div class="kpi-footer positive">
+                <span class="badge-tag success">Optimal</span>
+                Target standard ≥ 85%
+              </div>
+            </div>
+
+            <div class="kpi-card glass-panel">
+              <div class="kpi-header">
+                <span class="kpi-label">Present Today</span>
+                <div class="kpi-icon teal">✅</div>
+              </div>
+              <div class="kpi-value" id="kpi-present-count">--</div>
+              <div class="kpi-footer" id="kpi-present-sub">0 late / half-day marked</div>
+            </div>
+
+            <div class="kpi-card glass-panel">
+              <div class="kpi-header">
+                <span class="kpi-label">Absent Today</span>
+                <div class="kpi-icon rose">❌</div>
+              </div>
+              <div class="kpi-value danger" id="kpi-absent-count">--</div>
+              <div class="kpi-footer negative">Instant SMS notice alerts ready</div>
+            </div>
+
+            <div class="kpi-card glass-panel highlight-danger">
+              <div class="kpi-header">
+                <span class="kpi-label">Defaulters (&lt;75%)</span>
+                <div class="kpi-icon amber">⚠️</div>
+              </div>
+              <div class="kpi-value warning" id="kpi-defaulter-count">--</div>
+              <div class="kpi-footer">CBSE Board Exam Criteria Risk</div>
+            </div>
+          </div>
+
+          <!-- Charts & Insights Row -->
+          <div class="dashboard-grid">
+            <!-- 7-Day Trend Chart -->
+            <div class="card glass-panel chart-box">
+              <div class="card-header">
+                <div class="card-title">
+                  <h3>7-Day Attendance Trend</h3>
+                  <p>Aggregate school presence across past working days</p>
+                </div>
+                <span class="pill-badge">Live Trend</span>
+              </div>
+              <div class="card-body">
+                <div class="chart-canvas-wrapper">
+                  <canvas id="trendChart" height="220"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Class Comparison Bar Chart -->
+            <div class="card glass-panel">
+              <div class="card-header">
+                <div class="card-title">
+                  <h3>Section-wise Attendance</h3>
+                  <p>Today's turnout rate comparison</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="class-comparison-bars" class="class-bars-container">
+                  <!-- Generated dynamically -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Defaulter Quick Warning Strip & Recent Activity -->
+          <div class="dashboard-secondary-grid">
+            <div class="card glass-panel">
+              <div class="card-header">
+                <div class="card-title">
+                  <h3>Critical Defaulter Alerts (Attendance &lt; 75%)</h3>
+                  <p>Students requiring immediate parent intervention</p>
+                </div>
+                <button class="btn btn-outline-sm" onclick="switchTab('defaulters')">View Full Radar →</button>
+              </div>
+              <div class="card-body p-0">
+                <div class="table-responsive">
+                  <table class="data-table">
+                    <thead>
+                      <tr>
+                        <th>Roll #</th>
+                        <th>Student Name</th>
+                        <th>Class</th>
+                        <th>Attendance %</th>
+                        <th>Parent Contact</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="dash-defaulters-tbody">
+                      <!-- Filled by JS -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Action & System Info Box -->
+            <div class="card glass-panel sys-info-card">
+              <div class="card-header">
+                <div class="card-title">
+                  <h3>Class 10 IT Project Compliance</h3>
+                  <p>Verified against CBSE 2026-27 Board Guidelines</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul class="checklist">
+                  <li class="checked"><span>✔</span> Full-Stack Relational Data Model (Students, Register, Defaulters)</li>
+                  <li class="checked"><span>✔</span> Interactive Input Forms with Validation</li>
+                  <li class="checked"><span>✔</span> Query & Filter Reports (Date, Class, Section)</li>
+                  <li class="checked"><span>✔</span> Automated Spreadsheet Analysis with Excel CSV</li>
+                  <li class="checked"><span>✔</span> Defaulter Shortfall Formula Calculation</li>
+                </ul>
+                <div class="info-actions">
+                  <button class="btn btn-secondary w-100" onclick="switchTab('syllabus')">📖 Open Project File Report Guide</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 2: ATTENDANCE REGISTER -->
+        <section id="tab-attendance" class="tab-pane">
+          <!-- Control Filter Bar -->
+          <div class="filter-bar glass-panel">
+            <div class="filter-group">
+              <label for="att-date-picker">Date:</label>
+              <input type="date" id="att-date-picker" class="input-control" value="2026-10-29">
+            </div>
+
+            <div class="filter-group">
+              <label for="att-class-select">Class:</label>
+              <select id="att-class-select" class="input-control">
+                <option value="10" selected>Class 10</option>
+                <option value="9">Class 9</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="att-section-select">Section:</label>
+              <select id="att-section-select" class="input-control">
+                <option value="A" selected>Section A</option>
+                <option value="B">Section B</option>
+              </select>
+            </div>
+
+            <div class="filter-actions">
+              <button class="btn btn-outline" id="btn-mark-all-present" onclick="bulkMarkAll('Present')">
+                <span>✅ Mark All Present</span>
+              </button>
+              <button class="btn btn-outline" id="btn-mark-all-absent" onclick="bulkMarkAll('Absent')">
+                <span>❌ Mark All Absent</span>
+              </button>
+              <button class="btn btn-success" id="btn-save-attendance" onclick="saveCurrentAttendanceRegister()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+                <span>Save Attendance</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Attendance Day Summary Mini Ribbon -->
+          <div class="ribbon-stats glass-panel">
+            <div class="ribbon-item"><strong>Class:</strong> <span id="ribbon-class-sec">10-A</span></div>
+            <div class="ribbon-item"><strong>Total Students:</strong> <span id="ribbon-total">20</span></div>
+            <div class="ribbon-item text-emerald"><strong>Present:</strong> <span id="ribbon-present">0</span></div>
+            <div class="ribbon-item text-rose"><strong>Absent:</strong> <span id="ribbon-absent">0</span></div>
+            <div class="ribbon-item text-amber"><strong>Late:</strong> <span id="ribbon-late">0</span></div>
+            <div class="ribbon-item text-sky"><strong>Half-Day:</strong> <span id="ribbon-half">0</span></div>
+            <div class="ribbon-item"><strong>Turnout:</strong> <span id="ribbon-pct" class="badge-tag success">0%</span></div>
+          </div>
+
+          <!-- Attendance Register Grid -->
+          <div class="card glass-panel mt-3">
+            <div class="card-body p-0">
+              <div class="table-responsive">
+                <table class="data-table register-table">
+                  <thead>
+                    <tr>
+                      <th width="70">Roll #</th>
+                      <th>Student Name</th>
+                      <th>Student ID</th>
+                      <th>Gender</th>
+                      <th width="320">Attendance Status (Single Click)</th>
+                      <th>Remarks</th>
+                      <th width="90">History</th>
+                    </tr>
+                  </thead>
+                  <tbody id="attendance-register-tbody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 3: DEFAULTER RADAR (<75%) -->
+        <section id="tab-defaulters" class="tab-pane">
+          <div class="card glass-panel alert-banner">
+            <div class="alert-icon">⚠️</div>
+            <div class="alert-content">
+              <h3>Mandatory 75% CBSE Board Attendance Compliance</h3>
+              <p>According to CBSE Regulation Rule 13/14, candidates with attendance below 75% are ineligible to sit for Secondary School Examinations without special medical condolence. Below is the real-time defaulter list with shortfall calculations.</p>
+            </div>
+            <div class="alert-actions">
+              <button class="btn btn-outline" onclick="exportDefaultersReport()">📥 Download Notice Sheet</button>
+            </div>
+          </div>
+
+          <div class="card glass-panel mt-3">
+            <div class="card-header">
+              <div class="card-title">
+                <h3>Students Below 75% Attendance Threshold</h3>
+                <p>Calculated across all working sessions in the academic term</p>
+              </div>
+              <div class="defaulter-threshold-selector">
+                <label>Filter Threshold: </label>
+                <select id="defaulter-thresh-select" class="input-control" onchange="loadDefaulters()">
+                  <option value="75" selected>&lt; 75% (Board Standard)</option>
+                  <option value="80">&lt; 80% (Warning Zone)</option>
+                  <option value="65">&lt; 65% (Critical Shortfall)</option>
+                </select>
+              </div>
+            </div>
+            <div class="card-body p-0">
+              <div class="table-responsive">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th>Roll #</th>
+                      <th>Student Name</th>
+                      <th>Class & Sec</th>
+                      <th>Working Days</th>
+                      <th>Days Present</th>
+                      <th>Days Absent</th>
+                      <th>Attendance %</th>
+                      <th>Shortfall Days Needed</th>
+                      <th>Parent / Guardian</th>
+                      <th>Phone</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="defaulters-table-tbody">
+                    <!-- Filled by JS -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 4: STUDENT DIRECTORY -->
+        <section id="tab-students" class="tab-pane">
+          <div class="filter-bar glass-panel">
+            <div class="search-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="text" id="student-search-input" placeholder="Search by student name, roll number, or ID..." oninput="debounceSearchStudents()">
+            </div>
+            <div class="filter-group">
+              <select id="dir-class-select" class="input-control" onchange="loadStudentsDirectory()">
+                <option value="">All Classes</option>
+                <option value="10">Class 10</option>
+                <option value="9">Class 9</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <select id="dir-section-select" class="input-control" onchange="loadStudentsDirectory()">
+                <option value="">All Sections</option>
+                <option value="A">Section A</option>
+                <option value="B">Section B</option>
+              </select>
+            </div>
+            <button class="btn btn-primary" onclick="openAddStudentModal()">+ Register New Student</button>
+          </div>
+
+          <div class="students-grid mt-3" id="students-cards-container">
+            <!-- Dynamic student cards -->
+          </div>
+        </section>
+
+        <!-- TAB 5: SPREADSHEET & REPORTS -->
+        <section id="tab-reports" class="tab-pane">
+          <div class="filter-bar glass-panel">
+            <div class="filter-group">
+              <label>Select Class:</label>
+              <select id="report-class-select" class="input-control" onchange="loadSpreadsheetMatrix()">
+                <option value="10" selected>Class 10-A</option>
+                <option value="10B">Class 10-B</option>
+                <option value="9">Class 9-A</option>
+              </select>
+            </div>
+            <div class="filter-actions">
+              <button class="btn btn-success" onclick="downloadCsvSpreadsheet()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Export to Excel / CSV</span>
+              </button>
+              <button class="btn btn-outline" onclick="window.print()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                <span>Print Attendance Sheet</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="card glass-panel mt-3">
+            <div class="card-header">
+              <div class="card-title">
+                <h3>Monthly Attendance Matrix (Spreadsheet Analysis View)</h3>
+                <p>Grid view showing daily presence, absence count, and percentage calculation formulas</p>
+              </div>
+              <div class="legend-row">
+                <span class="legend-item"><span class="badge-tag success">P</span> Present</span>
+                <span class="legend-item"><span class="badge-tag danger">A</span> Absent</span>
+                <span class="legend-item"><span class="badge-tag warning">L</span> Late</span>
+                <span class="legend-item"><span class="badge-tag info">H</span> Half-Day</span>
+              </div>
+            </div>
+            <div class="card-body p-0">
+              <div class="table-responsive matrix-scroll">
+                <table class="data-table matrix-table" id="matrix-table">
+                  <!-- Generated by JS -->
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Excel Formula Explanation Box for Class 10 IT -->
+          <div class="card glass-panel mt-3">
+            <div class="card-header">
+              <div class="card-title">
+                <h3>Spreadsheet Formulas & Data Analysis (Class 10 IT Syllabus)</h3>
+                <p>Formulas implemented in the spreadsheet module for automated grading</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="formula-grid">
+                <div class="formula-card">
+                  <h4>1. Total Present Days</h4>
+                  <code>=COUNTIF(D2:AB2, "Present") + 0.8*COUNTIF(D2:AB2, "Late")</code>
+                  <p>Counts all present and weighted late arrivals for student row.</p>
+                </div>
+                <div class="formula-card">
+                  <h4>2. Attendance Percentage</h4>
+                  <code>=(Total_Present / Total_Working_Days) * 100</code>
+                  <p>Computes mark-to-date turnout ratio formatted as percentage.</p>
+                </div>
+                <div class="formula-card">
+                  <h4>3. Defaulter Status Check</h4>
+                  <code>=IF(Attendance_Pct &lt; 75, "DEFAULTER", "ELIGIBLE")</code>
+                  <p>Conditional formula highlighting students barred from exams.</p>
+                </div>
+                <div class="formula-card">
+                  <h4>4. Class Turnout Average</h4>
+                  <code>=AVERAGE(AC2:AC21)</code>
+                  <p>Aggregate section performance evaluation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 6: CLASS 10 IT FILE GUIDE -->
+        <section id="tab-syllabus" class="tab-pane">
+          <div class="card glass-panel">
+            <div class="card-header">
+              <div class="card-title">
+                <h3>Class 10 Information Technology (IT) — Project File Documentation Guide</h3>
+                <p>Official syllabus breakdown and 20+ page project report structure</p>
+              </div>
+              <div class="header-badges">
+                <span class="pill-badge">Subject Code: 402</span>
+                <span class="badge-tag success">Ready for Print (DOCX & PDF)</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="syllabus-timeline">
+                <div class="timeline-step">
+                  <div class="step-num">01</div>
+                  <div class="step-info">
+                    <h4>Cover Page & Certificate</h4>
+                    <p>Formal academic title, School Name, Student Name, Roll No, Teacher & Examiner Signature blocks.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">02</div>
+                  <div class="step-info">
+                    <h4>Introduction & Problem Identification</h4>
+                    <p>Drawbacks of paper registers (lost pages, time waste, proxy attendance, errors in monthly calculations).</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">03</div>
+                  <div class="step-info">
+                    <h4>Objectives of the Project</h4>
+                    <p>Automate daily attendance, instant defaulter radar, transparent parent SMS notices, paperless reporting.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">04</div>
+                  <div class="step-info">
+                    <h4>Software & Tools Used</h4>
+                    <p>Frontend: HTML5, CSS3, JavaScript. Backend: Node.js & Express. Database: Relational JSON/SQL tables. Spreadsheet: Excel CSV.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">05</div>
+                  <div class="step-info">
+                    <h4>Database Design (Schema & ER Diagram)</h4>
+                    <p>Tables: <code>Students</code>, <code>AttendanceRegister</code>, <code>DefaultersAudit</code>, Primary/Foreign Keys, Data Dictionaries.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">06</div>
+                  <div class="step-info">
+                    <h4>Form Creation</h4>
+                    <p>Student Registration Form, Quick Daily Attendance Register, Defaulter Threshold filter forms.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">07</div>
+                  <div class="step-info">
+                    <h4>Query and Report Generation</h4>
+                    <p>SQL SELECT queries for Daily Attendance, Defaulter List (&lt;75%), Class comparison, and Student Attendance Ledger.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">08</div>
+                  <div class="step-info">
+                    <h4>Spreadsheet Analysis & Charting</h4>
+                    <p>Excel formulas (<code>COUNTIF</code>, <code>IF</code>, <code>AVERAGE</code>), Bar Charts, Donut Charts, and Trend Graphs.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">09</div>
+                  <div class="step-info">
+                    <h4>Advantages of the System</h4>
+                    <p>High accuracy, 90% time savings for teachers, instant parent transparency, 0 paper waste, CBSE compliance.</p>
+                  </div>
+                </div>
+                <div class="timeline-step">
+                  <div class="step-num">10</div>
+                  <div class="step-info">
+                    <h4>Conclusion & Future Scope</h4>
+                    <p>Summary of benefits, potential for Biometric / RFID integration, mobile teacher app, SMS gateway.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="download-doc-box mt-4">
+                <div class="doc-banner">
+                  <div class="doc-icon">📄</div>
+                  <div>
+                    <h4>Class 10 IT Project File Ready!</h4>
+                    <p>Complete 20+ page Word document (.docx) and PDF generated in project folder: <code>Student_Attendance_Project_Report.docx</code></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- MODAL: ADD STUDENT -->
+  <div class="modal-backdrop" id="modal-add-student">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Register New Student</h3>
+        <button class="btn-close" onclick="closeAddStudentModal()">✕</button>
+      </div>
+      <form id="form-add-student" onsubmit="handleCreateStudent(event)">
+        <div class="modal-body">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Student Name *</label>
+              <input type="text" id="add-name" class="input-control" placeholder="e.g. Rahul Sharma" required>
+            </div>
+            <div class="form-group">
+              <label>Roll Number *</label>
+              <input type="number" id="add-roll" class="input-control" min="1" max="100" placeholder="e.g. 21" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Class *</label>
+              <select id="add-class" class="input-control" required>
+                <option value="10">Class 10</option>
+                <option value="9">Class 9</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Section *</label>
+              <select id="add-section" class="input-control" required>
+                <option value="A">Section A</option>
+                <option value="B">Section B</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Gender *</label>
+              <select id="add-gender" class="input-control" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Parent / Guardian Name</label>
+              <input type="text" id="add-parent" class="input-control" placeholder="e.g. Rajesh Sharma">
+            </div>
+            <div class="form-group">
+              <label>Parent Phone Number</label>
+              <input type="tel" id="add-phone" class="input-control" placeholder="+91 98765 43210">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" id="add-email" class="input-control" placeholder="student@example.com">
+            </div>
+            <div class="form-group">
+              <label>Residential Address</label>
+              <input type="text" id="add-address" class="input-control" placeholder="City, State">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline" onclick="closeAddStudentModal()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Student</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL: STUDENT ATTENDANCE HISTORY -->
+  <div class="modal-backdrop" id="modal-student-history">
+    <div class="modal-card modal-lg">
+      <div class="modal-header">
+        <div>
+          <h3 id="modal-hist-name">Student Attendance Record</h3>
+          <p id="modal-hist-meta" class="text-muted">Loading...</p>
+        </div>
+        <button class="btn-close" onclick="closeHistoryModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="student-kpi-row">
+          <div class="stat-box">
+            <span class="lbl">Total Classes</span>
+            <span class="val" id="hist-stat-total">--</span>
+          </div>
+          <div class="stat-box">
+            <span class="lbl">Present</span>
+            <span class="val text-emerald" id="hist-stat-present">--</span>
+          </div>
+          <div class="stat-box">
+            <span class="lbl">Absent</span>
+            <span class="val text-rose" id="hist-stat-absent">--</span>
+          </div>
+          <div class="stat-box">
+            <span class="lbl">Attendance %</span>
+            <span class="val" id="hist-stat-pct">--%</span>
+          </div>
+        </div>
+
+        <h4 class="mt-4 mb-2">Day-by-Day Attendance Log:</h4>
+        <div class="table-responsive" style="max-height: 280px; overflow-y: auto;">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Remarks</th>
+                <th>Recorded Timestamp</th>
+              </tr>
+            </thead>
+            <tbody id="hist-table-tbody">
+              <!-- Populated by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="closeHistoryModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: PARENT DEFAULTER NOTICE PREVIEW -->
+  <div class="modal-backdrop" id="modal-notice">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Official Parent Defaulter Notice (CBSE Rule 13)</h3>
+        <button class="btn-close" onclick="closeNoticeModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="notice-letter-box">
+          <div class="school-letterhead">
+            <h4>ATAL ADARSH VIDYALAYA</h4>
+            <p>TILAK MARG, NEW DELHI-110001 • Affiliated to CBSE (Code 402)</p>
+          </div>
+          <div class="notice-date">Date: <strong>29th October 2026</strong></div>
+          <p>To,</p>
+          <p><strong id="notice-parent-name">Parent Name</strong> (Parent/Guardian of <strong id="notice-student-name">Student</strong>)</p>
+          <p>Class: <strong id="notice-class">10-A</strong> | Roll No: <strong id="notice-roll">15</strong> | Phone: <strong id="notice-phone">--</strong></p>
+          <hr class="my-2">
+          <p><strong>Subject: Formal Warning Regarding Shortfall in Attendance (&lt;75%)</strong></p>
+          <p>Dear Parent,</p>
+          <p>This is to bring to your urgent attention that your ward's current attendance stands at <strong class="text-rose" id="notice-pct">64.0%</strong>, which is critically below the mandatory <strong>75%</strong> requirement stipulated by the Central Board of Secondary Education (CBSE) for board examination eligibility.</p>
+          <p>Your ward has attended only <strong id="notice-present-days">16</strong> out of <strong id="notice-total-days">25</strong> working days, requiring an immediate shortfall clearance of <strong class="text-rose" id="notice-shortfall">3</strong> consecutive present days.</p>
+          <p>Kindly report to the School Principal / Class Teacher on or before <strong>31st October 2026</strong> to discuss the remedial plan.</p>
+          <div class="signatures-row mt-4">
+            <div>
+              <p>_______________________</p>
+              <p><strong>Class Teacher Signature</strong></p>
+            </div>
+            <div>
+              <p>_______________________</p>
+              <p><strong>Principal Signature</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline" onclick="closeNoticeModal()">Close</button>
+        <button type="button" class="btn btn-success" onclick="printNotice()">🖨️ Print Notice</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div id="toast" class="toast">
+    <div class="toast-icon" id="toast-icon">✅</div>
+    <div class="toast-message" id="toast-message">Action completed successfully</div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/charts.js"></script>
+  <script src="js/reports.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

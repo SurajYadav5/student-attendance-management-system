@@ -1,0 +1,17 @@
+{
+  "name": "student-attendance-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack Student Attendance Management System for Class 10 IT Project",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "echo 'No build step required for static frontend'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

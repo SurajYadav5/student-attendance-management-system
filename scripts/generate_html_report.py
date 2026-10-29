@@ -1,0 +1,209 @@
+import os
+
+DOC_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(DOC_DIR)
+OUTPUT_HTML = os.path.join(os.path.dirname(PROJECT_ROOT), 'Student_Attendance_Project_Report.html')
+
+html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Attendance Management System — Class 10 IT Project File</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4; margin: 20mm; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; line-height: 1.6; color: #1e293b; background: #f8fafc; margin: 0; padding: 20px; }
+    .page { background: #fff; max-width: 820px; margin: 0 auto 30px; padding: 45px 55px; box-shadow: 0 4px 18px rgba(0,0,0,0.06); border-radius: 8px; page-break-after: always; }
+    .cover-page { text-align: center; display: flex; flex-direction: column; justify-content: center; min-height: 850px; }
+    .school-title { font-size: 15px; font-weight: 700; color: #475569; letter-spacing: 0.5px; margin-bottom: 25px; }
+    .main-title { font-size: 32px; font-weight: 800; color: #1e3a8a; line-height: 1.2; margin-bottom: 12px; }
+    .sub-title { font-size: 14px; color: #64748b; font-style: italic; margin-bottom: 40px; }
+    .badge-box { background: #eef2ff; border: 1px solid #c7d2fe; padding: 14px 20px; border-radius: 6px; display: inline-block; margin: 0 auto 50px; font-weight: 700; color: #4f46e5; font-size: 13px; }
+    .meta-grid { display: flex; justify-content: space-between; text-align: left; margin-top: 40px; padding-top: 20px; border-top: 2px solid #e2e8f0; }
+    .meta-col h4 { font-size: 13px; color: #1e3a8a; margin-bottom: 6px; }
+    .meta-col p { font-size: 12px; color: #334155; margin: 3px 0; }
+    h1 { font-size: 22px; color: #1e3a8a; border-bottom: 2px solid #6366f1; padding-bottom: 6px; margin-top: 0; }
+    h2 { font-size: 16px; color: #334155; margin-top: 20px; margin-bottom: 8px; }
+    p, li { font-size: 13px; color: #334155; text-align: justify; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 12px; }
+    th { background: #f1f5f9; color: #1e293b; padding: 8px 12px; text-align: left; border: 1px solid #cbd5e1; font-weight: 700; }
+    td { padding: 8px 12px; border: 1px solid #cbd5e1; }
+    pre { background: #f8fafc; border: 1px solid #e2e8f0; padding: 12px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #1e3a8a; overflow-x: auto; }
+    .figure-box { text-align: center; margin: 20px 0; }
+    .figure-box img { max-width: 100%; height: auto; border: 1px solid #cbd5e1; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .figure-caption { font-size: 11px; color: #64748b; font-style: italic; margin-top: 6px; }
+    .sig-row { display: flex; justify-content: space-between; margin-top: 60px; text-align: center; }
+    .sig-col { width: 30%; font-size: 12px; color: #475569; }
+    .print-btn-bar { position: fixed; top: 15px; right: 20px; z-index: 100; }
+    .print-btn { background: #4f46e5; color: #fff; border: none; padding: 10px 18px; border-radius: 6px; font-weight: 700; cursor: pointer; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4); }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; border-radius: 0; margin: 0; padding: 25mm 20mm; }
+      .print-btn-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-btn-bar">
+    <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <!-- Page 1: Cover -->
+  <div class="page cover-page">
+    <div class="school-title">CENTRAL BOARD OF SECONDARY EDUCATION (CBSE)<br>ATAL ADARSH VIDYALAYA<br>TILAK MARG, NEW DELHI-110001</div>
+    <div class="main-title">STUDENT ATTENDANCE<br>MANAGEMENT SYSTEM</div>
+    <div class="sub-title">An Automated Full-Stack Information System for Real-Time Roll Calls, CBSE Rule 13 Defaulter Radar & Spreadsheet Analysis</div>
+    <div class="badge-box">CLASS 10 INFORMATION TECHNOLOGY (IT 402)<br>PRACTICAL PROJECT FILE — SESSION 2026-2027</div>
+    <div class="meta-grid" style="justify-content: center; text-align: center;">
+      <div class="meta-col" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 18px 30px; border-radius: 8px;">
+        <h4 style="color: #1e3a8a; font-size: 14px; margin-bottom: 8px;">SUBMITTED BY:</h4>
+        <p><strong>Name:</strong> Rahul Yadav</p>
+        <p><strong>Class:</strong> 10th - Section A</p>
+        <p><strong>Roll Number:</strong> 15</p>
+        <p><strong>Subject:</strong> Information Technology (402)</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page 2: Certificate -->
+  <div class="page">
+    <h1>CERTIFICATE OF AUTHENTICITY</h1>
+    <p style="margin-top: 30px;">
+      This is to certify that the project entitled <strong>"STUDENT ATTENDANCE MANAGEMENT SYSTEM"</strong> submitted by 
+      <strong>RAHUL YADAV</strong>, a bonafide student of Class 10, Section A (Roll Number: 15), has been successfully completed 
+      under my direct supervision and guidance in partial fulfillment of the practical examination curriculum for 
+      <strong>INFORMATION TECHNOLOGY (Subject Code: 402)</strong> prescribed by the Central Board of Secondary Education (CBSE) 
+      for the academic session 2026-2027.
+    </p>
+    <p>
+      The software solution, database schemas, frontend web forms, SQL queries, and spreadsheet analysis contained in this project file 
+      have been thoroughly tested, verified, and found to meet high standards of academic and practical excellence.
+    </p>
+    <div class="sig-row">
+      <div class="sig-col">_____________________<br><strong>Teacher In-Charge</strong><br>(IT Department)</div>
+      <div class="sig-col">_____________________<br><strong>Internal / External Examiner</strong><br>(CBSE Board)</div>
+      <div class="sig-col">_____________________<br><strong>Principal Signature</strong><br>(School Stamp & Seal)</div>
+    </div>
+  </div>
+
+  <!-- Page 3: Acknowledgement & Index -->
+  <div class="page">
+    <h1>ACKNOWLEDGEMENT</h1>
+    <p>
+      I express my sincere thanks to our respected Principal and the school administration for providing modern computer lab facilities. 
+      I am profoundly thankful to my Information Technology teacher for their invaluable guidance, encouragement, and technical insights. 
+      I also thank my parents and classmates for their continuous support.
+    </p>
+    <p style="text-align: right; margin-top: 25px;"><strong>Rahul Yadav</strong><br>Class 10 - Section A (Roll #15)<br>Atal Adarsh Vidyalaya, Tilak Marg, New Delhi-110001</p>
+
+    <h1 style="margin-top: 40px;">TABLE OF CONTENTS / INDEX</h1>
+    <table>
+      <thead>
+        <tr><th width="60">S.No.</th><th>Topic / Subtopic Name</th><th width="80">Status</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Introduction to Student Attendance Management System</td><td>Complete</td></tr>
+        <tr><td>2</td><td>Problem Identification & Traditional Register Analysis</td><td>Complete</td></tr>
+        <tr><td>3</td><td>Objectives of the Project (CBSE Rule 13 Compliance)</td><td>Complete</td></tr>
+        <tr><td>4</td><td>Software Used & Hardware Environment</td><td>Complete</td></tr>
+        <tr><td>5</td><td>System Architecture & Data Flow Workflow</td><td>Complete</td></tr>
+        <tr><td>6</td><td>Database Design, Relational Schema & Dictionaries</td><td>Complete</td></tr>
+        <tr><td>7</td><td>Form Creation & Graphical Interface</td><td>Complete</td></tr>
+        <tr><td>8</td><td>SQL Query and Report Generation</td><td>Complete</td></tr>
+        <tr><td>9</td><td>Spreadsheet Analysis & Mathematical Evaluation</td><td>Complete</td></tr>
+        <tr><td>10</td><td>Advantages of the System</td><td>Complete</td></tr>
+        <tr><td>11</td><td>Conclusion & Future Scope</td><td>Complete</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Page 4: Introduction & Dashboard -->
+  <div class="page">
+    <h1>CHAPTER 1: INTRODUCTION</h1>
+    <p>
+      In secondary schools, attendance recording is a foundational routine that directly influences academic continuity, school discipline, 
+      and examination eligibility. Under CBSE Regulation Rule 13, maintaining a minimum of 75% attendance is strictly enforced for Class 10 board examination candidates.
+    </p>
+    <p>
+      <strong>EduTrack Pro</strong> is a complete full-stack web application developed to replace manual paper registers with an automated, 
+      instantaneous roll-call system featuring live turnout calculations, CBSE 75% Defaulter Radar, and spreadsheet integration.
+    </p>
+    <div class="figure-box">
+      <img src="student-attendance-system/screenshots/01_dashboard.png" alt="Dashboard">
+      <div class="figure-caption">Figure 1.1: EduTrack Pro Real-Time Dashboard displaying KPIs, 7-Day Trend Chart, and Section Comparison</div>
+    </div>
+  </div>
+
+  <!-- Page 5: Register & Forms -->
+  <div class="page">
+    <h1>CHAPTER 7: FORM CREATION & ATTENDANCE REGISTER</h1>
+    <p>
+      The system features intuitive input forms that allow single-click attendance marking. Teachers can mark an entire class as Present in 1 second, 
+      and toggle absentees with individual chips (Present, Absent, Late, Half-Day).
+    </p>
+    <div class="figure-box">
+      <img src="student-attendance-system/screenshots/02_attendance_register.png" alt="Register">
+      <div class="figure-caption">Figure 7.1: Daily Attendance Register with 1-click status chips and live class turnout ribbon</div>
+    </div>
+  </div>
+
+  <!-- Page 6: Defaulter Radar -->
+  <div class="page">
+    <h1>CHAPTER 3 & 8: DEFAULTER RADAR (<75%) & REPORTS</h1>
+    <p>
+      The Defaulter Radar automatically computes cumulative attendance and flags students below 75%. It calculates the exact number of consecutive 
+      attended days needed to regain eligibility and generates official parent notices.
+    </p>
+    <div class="figure-box">
+      <img src="student-attendance-system/screenshots/03_defaulters_radar.png" alt="Defaulters Radar">
+      <div class="figure-caption">Figure 8.1: CBSE Defaulter Radar with shortfall math and notice dispatch</div>
+    </div>
+  </div>
+
+  <!-- Page 7: Parent Notice & Student Cards -->
+  <div class="page">
+    <h1>OFFICIAL PARENT WARNING NOTICE & DIRECTORY</h1>
+    <p>
+      A formal warning letter is generated dynamically for defaulters with school letterhead, statistics, and principal signature lines.
+    </p>
+    <div class="figure-box">
+      <img src="student-attendance-system/screenshots/04_parent_notice_modal.png" alt="Parent Notice">
+      <div class="figure-caption">Figure 8.2: Automated Parent Notice Modal adhering to CBSE Rule 13 regulations</div>
+    </div>
+    <div class="figure-box">
+      <img src="student-attendance-system/screenshots/05_student_directory.png" alt="Student Directory">
+      <div class="figure-caption">Figure 8.3: Student Directory with enrollment details and individual attendance percentage badges</div>
+    </div>
+  </div>
+
+  <!-- Page 8: Spreadsheet Analysis -->
+  <div class="page">
+    <h1>CHAPTER 9: SPREADSHEET ANALYSIS & FORMULAS</h1>
+    <p>
+      The system provides a monthly attendance matrix view matching the Class 10 IT practical syllabus for electronic spreadsheets. 
+      Formulas such as <code>COUNTIF</code>, <code>AVERAGE</code>, and <code>IF</code> conditions evaluate student performance.
+    </p>
+    <div class="figure-box">
+      <img src="student-attendance-system/screenshots/07_spreadsheet_reports.png" alt="Spreadsheet Matrix">
+      <div class="figure-caption">Figure 9.1: Monthly Spreadsheet Matrix View with daily P/A cells, percentage formulas, and CSV export</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Excel Formula</th><th>Syntax Used</th><th>Purpose in Project</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Present Count</td><td><code>=COUNTIF(D2:AB2, "Present")</code></td><td>Counts total days student was present</td></tr>
+        <tr><td>Attendance %</td><td><code>=(Present / Total_Days) * 100</code></td><td>Calculates turnout ratio</td></tr>
+        <tr><td>Defaulter Status</td><td><code>=IF(Pct &lt; 75, "DEFAULTER", "ELIGIBLE")</code></td><td>Flags students below CBSE threshold</td></tr>
+        <tr><td>Section Average</td><td><code>=AVERAGE(Pct_Range)</code></td><td>Measures overall class attendance</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
+"""
+
+with open(OUTPUT_HTML, 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print(f"Generated printable HTML report: {OUTPUT_HTML}")

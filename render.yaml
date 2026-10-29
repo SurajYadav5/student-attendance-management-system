@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: student-attendance-system
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: node server/server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 10000
+
